@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .form{
+            border: 1px solid black;
+        }
+        .names{
+            border: 1px solid black;
+            
+        }
+        .btn{
+            text-align: center;
+            margin-left: 57em;
+            padding: 8px;
+            margin-top: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Registartion form</h2>
+        <form action="/">
+            <div class="names">
+                <label for="Name" > First Name </label>
+                <input type="text" name="FirstName"><br>
+            </div>
+
+            <div class="names">
+                <label for="Name" > Last Name</label>
+                 <input type="text"><br>
+            </div>
+            
+            <div class="names">
+                <label for="Password" > Password</label>
+                <input type="text"  type="password"><br>
+            
+            </div>
+            
+            <div class="names">
+                <label for="Password" > Re-enter Password</label>
+                <input type="text" type="password"><br>    
+            </div>
+           
+            <div class="names">
+                <label for="Age" >Age</label>
+                <input type="number"><br>
+            </div>
+
+            <div class="names">
+                <label for="Age" >Age</label>
+                <input type="number"><br>
+            </div>
+            
+
+            <div class="names">
+                <label for="Phone Number" >Phone Number</label>
+                <input type="number"><br>    
+            </div>
+
+            <div>
+                <label for="Address" >Address</label>
+                <textarea name="address" id="" cols="30" rows="10"></textarea><br>
+            </div>
+           
+            <div>
+                <label for="State" >State</label>
+                <input type="text"><br>
+            </div>
+        
+            <div class="names">
+               <label for="Country" >Country</label>
+                <select name="Choose Your Country" >Choose Your Country
+                    <option value="Choose Your Country">Choose Your Country</option>
+                    <option value="">India</option>
+                    <option value="">USA</option>
+                    <option value="">Russia</option>
+                    <option value="">Europe</option>
+                </select><br>
+            </div>
+            
+            <div>
+                <label for="Langusage Known"  >Langusage Known</label>
+                <input type="checkbox">English
+                <input type="checkbox">Kannada
+                <input type="checkbox">Hindi
+                <input type="checkbox">Telgu<br>
+            </div>
+            <div class="names">
+                <input type="checkbox">Here I declaare all the given details are true<br>
+            </div>
+            <div class="names">
+                <p>Log in to <a href="https://ethnus.com/">Ethnus Website</a></p>
+            </div>
+           <button type="button" class="btn">Register</button>
+        </form>
+    </div>
+</body>
+</html>
